@@ -1,0 +1,3 @@
+# Portfolio Theme 
+
+The Portfolio Theme is a professional and elegant Concrete CMS theme crafted specifically for business portfolios. Developed for Concrete CMS version 9 and based on the powerful Bedrock framework, it offers a modern design, intuitive layout options, and seamless usability. Whether you're presenting projects, showcasing your team, or outlining your services, this theme provides the perfect structure to highlight your work. With responsive design, customizable elements, and pre-designed templates, the Portfolio Theme is ideal for freelancers, agencies, and companies looking to establish a strong digital presence.

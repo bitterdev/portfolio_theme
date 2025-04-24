@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <pagetemplates>
+        <pagetemplate icon="blank.png" name="Blank" handle="blank" package="portfolio_theme" internal=""/>
+    </pagetemplates>
+    <pagetypes>
+        <pagetype name="Empty Page" handle="page" package="" launch-in-composer="0" is-frequently-added="1">
+            <pagetemplates type="except" default="full">
+                <pagetemplate handle="blank"/>
+            </pagetemplates>
+            <target handle="all" package=""/>
+            <composer>
+                <formlayout>
+                    <set name="Basics" description="">
+                        <control custom-template="" required="1" custom-label="Page Name" description=""
+                                 type="core_page_property" handle="name"/>
+                        <control custom-template="" custom-label="" description="" type="core_page_property"
+                                 handle="description"/>
+                        <control custom-template="" custom-label="" description="" type="core_page_property"
+                                 handle="url_slug"/>
+                        <control custom-template="" custom-label="" description="" type="core_page_property"
+                                 handle="page_template"/>
+                        <control custom-template="" custom-label="" description="" type="core_page_property"
+                                 handle="publish_target"/>
+                    </set>
+                </formlayout>
+                <output>
+                    <pagetemplate handle="full">
+                        <page name="" path="" filename="" pagetype="page" template="full" user="admin" description=""
+                              package="">
+                            <area name="Main">
+                                <blocks/>
+                            </area>
+                            <area name="Page Header">
+                                <blocks/>
+                            </area>
+                            <area name="Page Footer">
+                                <blocks/>
+                            </area>
+                        </page>
+                    </pagetemplate>
+                </output>
+            </composer>
+        </pagetype>
+    </pagetypes>
+
+    <sociallinks>
+        <link service="facebook" url="#"/>
+        <link service="instagram" url="#"/>
+        <link service="twitter" url="#"/>
+        <link service="youtube" url="#"/>
+    </sociallinks>
+    <stacks>
+        <stack name="Footer Copyright" type="global_area" path="/footer-copyright">
+            <area name="Main">
+                <blocks>
+                    <block type="social_links" name="" custom-template="portfolio_theme_social_links">
+                        <link service="youtube"/>
+                        <link service="instagram"/>
+                        <link service="facebook"/>
+                        <link service="twitter"/>
+                    </block>
+                </blocks>
+            </area>
+        </stack>
+        <stack name="Footer Legal" type="global_area" path="/footer-legal">
+            <area name="Main">
+                <blocks>
+                    <block type="autonav" name="">
+                        <data table="btNavigation">
+                            <record>
+                                <orderBy>display_asc</orderBy>
+                                <displayPages>top</displayPages>
+                                <displayPagesCID/>
+                                <displayPagesIncludeSelf>0</displayPagesIncludeSelf>
+                                <displaySubPages>none</displaySubPages>
+                                <displaySubPageLevels>enough</displaySubPageLevels>
+                                <displaySubPageLevelsNum>0</displaySubPageLevelsNum>
+                                <displayUnavailablePages>0</displayUnavailablePages>
+                            </record>
+                        </data>
+                    </block>
+                </blocks>
+            </area>
+        </stack>
+    </stacks>
+    <pages>
+        <page name="Home" path="" public-date="2024-11-04 22:48:00" filename="" pagetype="" template="full" user="admin"
+              description="" package="" root="true">
+            <attributes>
+                <attributekey handle="profile_picture">
+                    <value>
+                        <fID>{ccm:export:file:profile-picture.jpg}</fID>
+                    </value>
+                </attributekey>
+                <attributekey handle="profile_bio">
+                    <value><![CDATA[Lorem ipsum lorem ipsum.]]></value>
+                </attributekey>
+                <attributekey handle="profile_title">
+                    <value>Lorem ipsum</value>
+                </attributekey>
+            </attributes>
+            <area name="Page Header">
+                <blocks/>
+            </area>
+            <area name="Main">
+                <blocks>
+                    <block type="core_container" name="">
+                        <container handle="section">
+                            <containerarea name="Column 1">
+                                <block type="page_title" name="">
+                                    <data table="btPageTitle">
+                                        <record>
+                                            <useCustomTitle>1</useCustomTitle>
+                                            <useFilterTitle>0</useFilterTitle>
+                                            <useFilterTopic>0</useFilterTopic>
+                                            <useFilterTag>0</useFilterTag>
+                                            <useFilterDate>0</useFilterDate>
+                                            <topicTextFormat>0</topicTextFormat>
+                                            <tagTextFormat>upperWord</tagTextFormat>
+                                            <dateTextFormat>0</dateTextFormat>
+                                            <filterDateFormat>F Y</filterDateFormat>
+                                            <titleText>Lorem ipsum</titleText>
+                                            <formatting>h2</formatting>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                            <containerarea name="Column 2">
+                                <block type="regular_link" name="">
+                                    <data table="btRegularLink">
+                                        <record>
+                                            <label>Lorem ipsum</label>
+                                            <linkType>external</linkType>
+                                            <externalLink>#</externalLink>
+                                        </record>
+                                    </data>
+                                </block>
+                                <block type="regular_link" name="">
+                                    <data table="btRegularLink">
+                                        <record>
+                                            <label>Lorem ipsum</label>
+                                            <linkType>external</linkType>
+                                            <externalLink>#</externalLink>
+                                        </record>
+                                    </data>
+                                </block>
+                                <block type="regular_link" name="">
+                                    <data table="btRegularLink">
+                                        <record>
+                                            <label>Lorem ipsum</label>
+                                            <linkType>external</linkType>
+                                            <externalLink>#</externalLink>
+                                        </record>
+                                    </data>
+                                </block>
+                                <block type="regular_link" name="">
+                                    <data table="btRegularLink">
+                                        <record>
+                                            <label>Lorem ipsum</label>
+                                            <linkType>external</linkType>
+                                            <externalLink>#</externalLink>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                        </container>
+                    </block>
+                </blocks>
+            </area>
+        </page>
+    </pages>
+</concrete5-cif>
