@@ -50,23 +50,680 @@
         <link service="twitter" url="#"/>
         <link service="youtube" url="#"/>
     </sociallinks>
-    <stacks>
-        <stack name="Footer Copyright" type="global_area" path="/footer-copyright">
+
+    <pages>
+        <page name="Home" path="" public-date="2025-04-22 15:07:26" filename="" pagetype="" template="full" user="admin"
+              description="" package="" root="true">
+            <area name="Page Header">
+                <blocks/>
+            </area>
             <area name="Main">
                 <blocks>
-                    <block type="social_links" name="" custom-template="portfolio_theme_social_links">
-                        <link service="youtube"/>
-                        <link service="instagram"/>
-                        <link service="facebook"/>
-                        <link service="twitter"/>
+                    <block type="content" name="">
+                        <data table="btContentLocal">
+                            <record>
+                                <content><![CDATA[<h6>Lorem ipsum</h6>
+
+<h2>Lorem ipsum dolor sit amet</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,</p>
+]]></content>
+                            </record>
+                        </data>
+                    </block>
+                    <block type="core_container" name="">
+                        <container handle="two_columns">
+                            <containerarea name="Column 1">
+                                <block type="feature" name="" custom-template="portfolio_theme_feature">
+                                    <data table="btFeature">
+                                        <record>
+                                            <icon>fas fa-star</icon>
+                                            <title>Lorem ipsum dolor</title>
+                                            <paragraph><![CDATA[<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+]]></paragraph>
+                                            <externalLink/>
+                                            <internalLinkCID/>
+                                            <titleFormat>h5</titleFormat>
+                                            <fID/>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                            <containerarea name="Column 2">
+                                <block type="feature" name="" custom-template="portfolio_theme_feature">
+                                    <data table="btFeature">
+                                        <record>
+                                            <icon>fas fa-star</icon>
+                                            <title>Lorem ipsum dolor</title>
+                                            <paragraph><![CDATA[<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+]]></paragraph>
+                                            <externalLink/>
+                                            <internalLinkCID/>
+                                            <titleFormat>h5</titleFormat>
+                                            <fID/>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                        </container>
+                    </block>
+                    <block type="core_container" name="">
+                        <container handle="two_columns">
+                            <containerarea name="Column 1">
+                                <block type="feature" name="" custom-template="portfolio_theme_feature">
+                                    <data table="btFeature">
+                                        <record>
+                                            <icon>fas fa-star</icon>
+                                            <title>Lorem ipsum dolor</title>
+                                            <paragraph>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                elit. Aenean commodo ligula eget dolor. Aenean massa.&lt;/p&gt;&#13;
+                                            </paragraph>
+                                            <externalLink/>
+                                            <internalLinkCID/>
+                                            <titleFormat>h5</titleFormat>
+                                            <fID/>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                            <containerarea name="Column 2">
+                                <block type="feature" name="" custom-template="portfolio_theme_feature">
+                                    <data table="btFeature">
+                                        <record>
+                                            <icon>fas fa-star</icon>
+                                            <title>Lorem ipsum dolor</title>
+                                            <paragraph>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                elit. Aenean commodo ligula eget dolor. Aenean massa.&lt;/p&gt;&#13;
+                                            </paragraph>
+                                            <externalLink/>
+                                            <internalLinkCID/>
+                                            <titleFormat>h5</titleFormat>
+                                            <fID/>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                        </container>
+                    </block>
+                    <block type="core_container" name="">
+                        <container handle="two_columns">
+                            <containerarea name="Column 1">
+                                <block type="feature" name="" custom-template="portfolio_theme_feature">
+                                    <data table="btFeature">
+                                        <record>
+                                            <icon>fas fa-star</icon>
+                                            <title>Lorem ipsum dolor</title>
+                                            <paragraph>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                elit. Aenean commodo ligula eget dolor. Aenean massa.&lt;/p&gt;&#13;
+                                            </paragraph>
+                                            <externalLink/>
+                                            <internalLinkCID/>
+                                            <titleFormat>h5</titleFormat>
+                                            <fID/>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                            <containerarea name="Column 2"/>
+                        </container>
+                    </block>
+                    <block type="horizontal_rule" name=""/>
+                    <block type="content" name="">
+                        <data table="btContentLocal">
+                            <record>
+                                <content><![CDATA[<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis</p>
+]]></content>
+                            </record>
+                        </data>
+                    </block>
+                    <block type="core_container" name="">
+                        <style>
+                            <backgroundColor/>
+                            <backgroundRepeat>no-repeat</backgroundRepeat>
+                            <backgroundSize>auto</backgroundSize>
+                            <backgroundPosition>0% 0%</backgroundPosition>
+                            <borderWidth/>
+                            <borderColor/>
+                            <borderStyle/>
+                            <borderRadius/>
+                            <baseFontSize/>
+                            <alignment/>
+                            <textColor/>
+                            <linkColor/>
+                            <paddingTop/>
+                            <paddingBottom/>
+                            <paddingLeft/>
+                            <paddingRight/>
+                            <marginTop/>
+                            <marginBottom/>
+                            <marginLeft/>
+                            <marginRight/>
+                            <rotate/>
+                            <boxShadowHorizontal/>
+                            <boxShadowVertical/>
+                            <boxShadowBlur/>
+                            <boxShadowSpread/>
+                            <boxShadowColor/>
+                            <boxShadowInset/>
+                            <customClass>gray</customClass>
+                            <customID/>
+                            <customElementAttribute/>
+                            <hideOnExtraSmallDevice/>
+                            <hideOnSmallDevice/>
+                            <hideOnMediumDevice/>
+                            <hideOnLargeDevice/>
+                        </style>
+                        <container handle="full_width">
+                            <containerarea name="Column 1">
+                                <block type="content" name="">
+                                    <data table="btContentLocal">
+                                        <record>
+                                            <content>&lt;h6&gt;Lorem ipsum&lt;/h6&gt;&#13;
+                                                &#13;
+                                                &lt;h2&gt;Lorem ipsum dolor sit amet&lt;/h2&gt;&#13;
+                                                &#13;
+                                                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                                                quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                                                consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                                                vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                                vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                                                tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+                                                eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+                                                eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat
+                                                a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
+                                                rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+                                                ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+                                                tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit
+                                                amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus
+                                                pulvinar,&lt;/p&gt;&#13;
+                                            </content>
+                                        </record>
+                                    </data>
+                                </block>
+                                <block type="core_container" name="">
+                                    <container handle="two_columns">
+                                        <containerarea name="Column 1">
+                                            <block type="resume" name="" custom-template="education">
+                                                <data table="btResume">
+                                                    <record/>
+                                                </data>
+                                            </block>
+                                        </containerarea>
+                                        <containerarea name="Column 2">
+                                            <block type="resume" name="" custom-template="education">
+                                                <data table="btResume">
+                                                    <record/>
+                                                </data>
+                                            </block>
+                                        </containerarea>
+                                    </container>
+                                </block>
+                            </containerarea>
+                        </container>
+                    </block>
+                    <block type="content" name="">
+                        <data table="btContentLocal">
+                            <record>
+                                <content>&lt;h6&gt;Lorem ipsum&lt;/h6&gt;&#13;
+                                    &#13;
+                                    &lt;h2&gt;Lorem ipsum dolor sit amet&lt;/h2&gt;&#13;
+                                    &#13;
+                                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                                    parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                                    justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+                                    imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                                    Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+                                    eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+                                    enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+                                    viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
+                                    ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+                                    rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+                                    sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus
+                                    pulvinar,&lt;/p&gt;&#13;
+                                </content>
+                            </record>
+                        </data>
+                    </block>
+                    <block type="gallery" name="" custom-template="portfolio_theme_gallery_three_column_grid">
+                        <includeDownloadLink>0</includeDownloadLink>
+                        <entries>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                        </entries>
+                    </block>
+                    <block type="core_container" name="">
+                        <style>
+                            <backgroundColor/>
+                            <backgroundRepeat>no-repeat</backgroundRepeat>
+                            <backgroundSize>auto</backgroundSize>
+                            <backgroundPosition>0% 0%</backgroundPosition>
+                            <borderWidth/>
+                            <borderColor/>
+                            <borderStyle/>
+                            <borderRadius/>
+                            <baseFontSize/>
+                            <alignment/>
+                            <textColor/>
+                            <linkColor/>
+                            <paddingTop/>
+                            <paddingBottom/>
+                            <paddingLeft/>
+                            <paddingRight/>
+                            <marginTop/>
+                            <marginBottom/>
+                            <marginLeft/>
+                            <marginRight/>
+                            <rotate/>
+                            <boxShadowHorizontal/>
+                            <boxShadowVertical/>
+                            <boxShadowBlur/>
+                            <boxShadowSpread/>
+                            <boxShadowColor/>
+                            <boxShadowInset/>
+                            <customClass>gray</customClass>
+                            <customID/>
+                            <customElementAttribute/>
+                            <hideOnExtraSmallDevice/>
+                            <hideOnSmallDevice/>
+                            <hideOnMediumDevice/>
+                            <hideOnLargeDevice/>
+                        </style>
+                        <container handle="full_width">
+                            <containerarea name="Column 1">
+                                <block type="core_container" name="">
+                                    <container handle="image_left">
+                                        <containerarea name="Column 1">
+                                            <block type="image" name="">
+                                                <data table="btContentImage">
+                                                    <record>
+                                                        <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                                        <fOnstateID/>
+                                                        <cropImage>0</cropImage>
+                                                        <maxWidth>0</maxWidth>
+                                                        <maxHeight>0</maxHeight>
+                                                        <externalLink/>
+                                                        <internalLinkCID/>
+                                                        <fileLinkID/>
+                                                        <openLinkInNewWindow>0</openLinkInNewWindow>
+                                                        <altText/>
+                                                        <title/>
+                                                        <sizingOption>thumbnails_default</sizingOption>
+                                                        <imageLink__which>none</imageLink__which>
+                                                        <imageLink_none/>
+                                                    </record>
+                                                </data>
+                                            </block>
+                                        </containerarea>
+                                        <containerarea name="Column 2">
+                                            <block type="content" name="">
+                                                <data table="btContentLocal">
+                                                    <record>
+                                                        <content><![CDATA[<h2>Lorem ipsum dolor</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,</p>
+]]></content>
+                                                    </record>
+                                                </data>
+                                            </block>
+                                        </containerarea>
+                                    </container>
+                                </block>
+                            </containerarea>
+                        </container>
+                    </block>
+                    <block type="core_container" name="">
+                        <container handle="contact">
+                            <containerarea name="Column 1">
+                                <block type="feature" name="" custom-template="portfolio_theme_feature_contact">
+                                    <data table="btFeature">
+                                        <record>
+                                            <icon>fas fa-envelope</icon>
+                                            <title>E-Mail</title>
+                                            <paragraph><![CDATA[<p>Lorem Ipsum</p>
+]]></paragraph>
+                                            <externalLink/>
+                                            <internalLinkCID/>
+                                            <titleFormat>h4</titleFormat>
+                                            <fID/>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                            <containerarea name="Column 2">
+                                <block type="feature" name="" custom-template="portfolio_theme_feature_contact">
+                                    <data table="btFeature">
+                                        <record>
+                                            <icon>fas fa-phone</icon>
+                                            <title>Phone</title>
+                                            <paragraph><![CDATA[<p>Lorem Ipsum</p>
+]]></paragraph>
+                                            <externalLink/>
+                                            <internalLinkCID/>
+                                            <titleFormat>h4</titleFormat>
+                                            <fID/>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                            <containerarea name="Column 3">
+                                <block type="feature" name="" custom-template="portfolio_theme_feature_contact">
+                                    <data table="btFeature">
+                                        <record>
+                                            <icon>fas fa-map-marker</icon>
+                                            <title>Address</title>
+                                            <paragraph><![CDATA[<p>Lorem Ipsum<br />
+Lorem Ipsum<br />
+Lorem Ipsum<br />
+</p>
+]]></paragraph>
+                                            <externalLink/>
+                                            <internalLinkCID/>
+                                            <titleFormat>h4</titleFormat>
+                                            <fID/>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                            <containerarea name="Column 4">
+                                <block type="form" name="" custom-template="portfolio_theme_contact_form">
+                                    <data table="btForm">
+                                        <record>
+                                            <questionSetId>1745782481</questionSetId>
+                                            <surveyName>Contact</surveyName>
+                                            <submitText>Send Message</submitText>
+                                            <thankyouMsg>Thanks!</thankyouMsg>
+                                            <notifyMeOnSubmission>0</notifyMeOnSubmission>
+                                            <recipientEmail/>
+                                            <displayCaptcha>0</displayCaptcha>
+                                            <redirectCID/>
+                                            <addFilesToSet>0</addFilesToSet>
+                                        </record>
+                                    </data>
+                                    <data table="btFormQuestions">
+                                        <record>
+                                            <qID>6</qID>
+                                            <msqID>1</msqID>
+                                            <questionSetId>1745782481</questionSetId>
+                                            <question>Name</question>
+                                            <inputType>field</inputType>
+                                            <options/>
+                                            <position>1000</position>
+                                            <width>50</width>
+                                            <height>3</height>
+                                            <defaultDate/>
+                                            <required>1</required>
+                                        </record>
+                                        <record>
+                                            <qID>7</qID>
+                                            <msqID>2</msqID>
+                                            <questionSetId>1745782481</questionSetId>
+                                            <question>Company</question>
+                                            <inputType>field</inputType>
+                                            <options/>
+                                            <position>1000</position>
+                                            <width>50</width>
+                                            <height>3</height>
+                                            <defaultDate/>
+                                            <required>0</required>
+                                        </record>
+                                        <record>
+                                            <qID>8</qID>
+                                            <msqID>3</msqID>
+                                            <questionSetId>1745782481</questionSetId>
+                                            <question>E-Mail</question>
+                                            <inputType>email</inputType>
+                                            <options>a:1:{s:22:"send_notification_from";i:0;}</options>
+                                            <position>1000</position>
+                                            <width>50</width>
+                                            <height>3</height>
+                                            <defaultDate/>
+                                            <required>1</required>
+                                        </record>
+                                        <record>
+                                            <qID>9</qID>
+                                            <msqID>4</msqID>
+                                            <questionSetId>1745782481</questionSetId>
+                                            <question>Phone</question>
+                                            <inputType>telephone</inputType>
+                                            <options/>
+                                            <position>1000</position>
+                                            <width>50</width>
+                                            <height>3</height>
+                                            <defaultDate/>
+                                            <required>0</required>
+                                        </record>
+                                        <record>
+                                            <qID>10</qID>
+                                            <msqID>5</msqID>
+                                            <questionSetId>1745782481</questionSetId>
+                                            <question>Message</question>
+                                            <inputType>text</inputType>
+                                            <options/>
+                                            <position>1000</position>
+                                            <width>50</width>
+                                            <height>3</height>
+                                            <defaultDate/>
+                                            <required>1</required>
+                                        </record>
+                                    </data>
+                                </block>
+                            </containerarea>
+                        </container>
                     </block>
                 </blocks>
             </area>
-        </stack>
-        <stack name="Footer Legal" type="global_area" path="/footer-legal">
+            <area name="Page Footer">
+                <blocks/>
+            </area>
+            <area name="Footer Navigation">
+                <blocks>
+                    <block type="autonav" name="" custom-template="portfolio_theme_footer_nav">
+                        <data table="btNavigation">
+                            <record>
+                                <orderBy>display_asc</orderBy>
+                                <displayPages>top</displayPages>
+                                <displayPagesCID/>
+                                <displayPagesIncludeSelf>0</displayPagesIncludeSelf>
+                                <displaySubPages>none</displaySubPages>
+                                <displaySubPageLevels>enough</displaySubPageLevels>
+                                <displaySubPageLevelsNum>0</displaySubPageLevelsNum>
+                                <displayUnavailablePages>0</displayUnavailablePages>
+                            </record>
+                        </data>
+                    </block>
+                </blocks>
+            </area>
+            <area name="Footer Copyright">
+                <blocks>
+                    <block type="content" name="">
+                        <data table="btContentLocal">
+                            <record>
+                                <content><![CDATA[<p>Copyright 2025 Lorem Ipsum</p>
+]]></content>
+                            </record>
+                        </data>
+                    </block>
+                </blocks>
+            </area>
+        </page>
+    </pages>
+    <stacks>
+        <stack name="Header Navigation" type="global_area" path="/header-navigation">
             <area name="Main">
                 <blocks>
-                    <block type="autonav" name="">
+                    <block type="autonav" name="" custom-template="portfolio_theme_header_nav">
                         <data table="btNavigation">
                             <record>
                                 <orderBy>display_asc</orderBy>
@@ -83,91 +740,18 @@
                 </blocks>
             </area>
         </stack>
-    </stacks>
-    <pages>
-        <page name="Home" path="" public-date="2024-11-04 22:48:00" filename="" pagetype="" template="full" user="admin"
-              description="" package="" root="true">
-            <attributes>
-                <attributekey handle="profile_picture">
-                    <value>
-                        <fID>{ccm:export:file:profile-picture.jpg}</fID>
-                    </value>
-                </attributekey>
-                <attributekey handle="profile_bio">
-                    <value><![CDATA[Lorem ipsum lorem ipsum.]]></value>
-                </attributekey>
-                <attributekey handle="profile_title">
-                    <value>Lorem ipsum</value>
-                </attributekey>
-            </attributes>
-            <area name="Page Header">
-                <blocks/>
-            </area>
+        <stack name="Language Switcher" type="global_area" path="/language-switcher">
             <area name="Main">
                 <blocks>
-                    <block type="core_container" name="">
-                        <container handle="section">
-                            <containerarea name="Column 1">
-                                <block type="page_title" name="">
-                                    <data table="btPageTitle">
-                                        <record>
-                                            <useCustomTitle>1</useCustomTitle>
-                                            <useFilterTitle>0</useFilterTitle>
-                                            <useFilterTopic>0</useFilterTopic>
-                                            <useFilterTag>0</useFilterTag>
-                                            <useFilterDate>0</useFilterDate>
-                                            <topicTextFormat>0</topicTextFormat>
-                                            <tagTextFormat>upperWord</tagTextFormat>
-                                            <dateTextFormat>0</dateTextFormat>
-                                            <filterDateFormat>F Y</filterDateFormat>
-                                            <titleText>Lorem ipsum</titleText>
-                                            <formatting>h2</formatting>
-                                        </record>
-                                    </data>
-                                </block>
-                            </containerarea>
-                            <containerarea name="Column 2">
-                                <block type="regular_link" name="">
-                                    <data table="btRegularLink">
-                                        <record>
-                                            <label>Lorem ipsum</label>
-                                            <linkType>external</linkType>
-                                            <externalLink>#</externalLink>
-                                        </record>
-                                    </data>
-                                </block>
-                                <block type="regular_link" name="">
-                                    <data table="btRegularLink">
-                                        <record>
-                                            <label>Lorem ipsum</label>
-                                            <linkType>external</linkType>
-                                            <externalLink>#</externalLink>
-                                        </record>
-                                    </data>
-                                </block>
-                                <block type="regular_link" name="">
-                                    <data table="btRegularLink">
-                                        <record>
-                                            <label>Lorem ipsum</label>
-                                            <linkType>external</linkType>
-                                            <externalLink>#</externalLink>
-                                        </record>
-                                    </data>
-                                </block>
-                                <block type="regular_link" name="">
-                                    <data table="btRegularLink">
-                                        <record>
-                                            <label>Lorem ipsum</label>
-                                            <linkType>external</linkType>
-                                            <externalLink>#</externalLink>
-                                        </record>
-                                    </data>
-                                </block>
-                            </containerarea>
-                        </container>
+                    <block type="switch_language" name="" custom-template="portfolio_theme_language_switcher">
+                        <data table="btSwitchLanguage">
+                            <record>
+                                <label>Choose Language</label>
+                            </record>
+                        </data>
                     </block>
                 </blocks>
             </area>
-        </page>
-    </pages>
+        </stack>
+    </stacks>
 </concrete5-cif>

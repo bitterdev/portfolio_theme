@@ -1,0 +1,70 @@
+html {
+  body {
+    .ccm-page {
+
+      .alert {
+        border-radius: 0;
+      }
+
+      .btn {
+        background-color: $accent-color !important;
+        border: none !important;
+        border-radius: 3px;
+        color: #ffffff;
+        box-shadow: none !important;
+        font-size: 1rem;
+        font-weight: 500;
+        height: 45px;
+        line-height: 45px;
+        outline: none !important;
+        padding: 0 30px;
+      }
+
+      .form-label {
+        font-size: 1rem;
+      }
+
+      .form-control {
+        border: none;
+        outline: none;
+        box-shadow: none;
+        height: 40px;
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom: 1px solid #ddd;
+        border-radius: 0;
+        width: 100%;
+        font-size: 1rem;
+        color: #000;
+        background: none;
+        position: relative;
+
+        &:focus:not([readonly]) {
+          border-bottom: 1px solid $accent-color;
+        }
+      }
+
+      select {
+        border: none;
+        outline: none;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom: 2px solid #a09eb5;
+        border-radius: 0;
+        width: 100%;
+      }
+
+      textarea.form-control {
+        height: 100px;
+      }
+
+      .form-group {
+        position: relative;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

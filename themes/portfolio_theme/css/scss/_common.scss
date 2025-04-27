@@ -3,3 +3,45 @@
 // This comes after shared variables so we can do things like define new button types in _shared-variables.scss
 // which bootstrap will automatically create
 @import '@concretecms/bedrock/assets/bedrock/scss/frontend';
+
+@import "containers";
+@import "blocks";
+@import "typography";
+@import "forms";
+@import "footer";
+@import "header";
+
+html {
+  body {
+    .ccm-page {
+      font-size: 14pt;
+      font-family:  "Poppins", Arial, sans-serif;
+
+      ::-moz-selection {
+        background-color: $accent-color;
+        color: #fff
+      }
+
+      ::-moz-selection, ::selection {
+        background-color: $accent-color;
+        color: #fff
+      }
+
+      .theme-color, header .k-navbar-nav li a.active, header .k-navbar-nav li a:hover {
+        color: $accent-color;
+      }
+
+      .theme-border {
+        border-color: $accent-color;
+      }
+
+      .theme-bg {
+        background-color: $accent-color;
+      }
+
+      .gray {
+        background-color: #f7f6ff;
+      }
+    }
+  }
+}

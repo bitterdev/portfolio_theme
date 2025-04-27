@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+        xmlns="http://www.concrete5.org/doctrine-xml/0.5"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 http://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+
+    <table name="btResume">
+        <field name="bID" type="integer">
+            <unsigned/>
+            <key/>
+        </field>
+    </table>
+
+    <table name="btResumeItem">
+        <field name="id" type="integer">
+            <unsigned/>
+            <autoincrement/>
+            <key/>
+        </field>
+        <field name="bID" type="integer">
+            <unsigned/>
+        </field>
+        <field name="yearFrom" type="string"/>
+        <field name="yearTo" type="string"/>
+        <field name="company" type="string"/>
+        <field name="description" type="text"/>
+    </table>
+</schema>

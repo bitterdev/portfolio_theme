@@ -1,0 +1,81 @@
+html {
+  body {
+    .ccm-page {
+      section.contact {
+        .text-muted {
+          margin-top: 25px !important;
+        }
+
+        .contact-form {
+          padding: 25px;
+          border: 1px solid #e7e5f7;
+          background: #fff;
+
+          h2 {
+            font-size: 1.2rem;
+            color: #292929;
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
+        }
+
+        .contact-info {
+          padding: 25px;
+          margin-right: 25px;
+          border: 1px solid #e7e5f7;
+          height: 100%;
+          background: #fff;
+
+          a {
+            color: #292929;
+          }
+        }
+
+        .ci-row {
+          margin-bottom: 25px;
+          position: relative;
+          padding-left: 40px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          label {
+            font-size: 1rem;
+            color: #666;
+            letter-spacing: 0.5px;
+            width: 100%;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 0 5px;
+          }
+
+          span {
+            font-size: 1rem;
+            color: #292929;
+            font-weight: 600;
+          }
+
+          i {
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            border-radius: 50%;
+            left: -10px;
+            top: 0;
+            position: absolute;
+            color: #fff;
+          }
+        }
+
+        @media (max-width: 991px) {
+          .contact-info {
+            margin: 0 0 40px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}

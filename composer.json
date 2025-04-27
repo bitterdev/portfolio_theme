@@ -1,5 +1,8 @@
 {
   "name": "bitter/portfolio_theme",
   "type": "concrete5-package",
-  "description": "A sleek Concrete CMS theme built for business portfolios, developed for version 9 and based on Bedrock."
+  "description": "A sleek Concrete CMS theme built for business portfolios, developed for version 9 and based on Bedrock.",
+  "require": {
+    "ext-json": "*"
+  }
 }

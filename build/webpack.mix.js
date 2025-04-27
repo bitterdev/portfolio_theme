@@ -14,6 +14,7 @@ mix.setResourceRoot('./');
 mix.setPublicPath('../themes/portfolio_theme');
 
 mix
+    .copyDirectory("node_modules/@fontsource/poppins", "../themes/portfolio_theme/css/fonts/poppins")
     .sass('../themes/portfolio_theme/css/presets/default/main.scss', '../themes/portfolio_theme/css/skins/default.css', {
         sassOptions: {
             includePaths: [

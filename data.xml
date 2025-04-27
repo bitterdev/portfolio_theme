@@ -3,4 +3,35 @@
     <themes>
         <theme handle="portfolio_theme" activated="1" package="portfolio_theme"/>
     </themes>
+
+    <singlepages>
+        <page name="Portfolio Theme" path="/dashboard/portfolio_theme"
+              filename="/dashboard/portfolio_theme.php"
+              pagetype="" description=""
+              package="portfolio_theme">
+        </page>
+
+        <page name="Settings" path="/dashboard/portfolio_theme/settings"
+              filename="/dashboard/portfolio_theme/settings.php" pagetype="" description=""
+              package="portfolio_theme">
+        </page>
+    </singlepages>
+
+    <containers>
+        <container handle="contact" name="Contact" icon="blank.png" package="portfolio_theme"/>
+        <container handle="image_left" name="Image Left" icon="blank.png" package="portfolio_theme"/>
+        <container handle="three_columns" name="Three Columns" icon="blank.png" package="portfolio_theme"/>
+        <container handle="two_columns" name="Two Columns" icon="blank.png" package="portfolio_theme"/>
+        <container handle="full_width" name="Full Width" icon="blank.png" package="portfolio_theme"/>
+    </containers>
+
+    <blocktypes>
+        <blocktype handle="resume" package="portfolio_theme"/>
+    </blocktypes>
+
+    <blocktypesets>
+        <blocktypeset handle="portfolio_theme" name="Portfolio Theme" package="portfolio_theme">
+            <blocktype handle="resume"/>
+        </blocktypeset>
+    </blocktypesets>
 </concrete5-cif>
