@@ -27,6 +27,8 @@ $pageSelector = $app->make(PageSelector::class);
     <?php \Concrete\Core\View\View::element("dashboard/help", [], "portfolio_theme"); ?>
 </div>
 
+<?php \Concrete\Core\View\View::element("dashboard/did_you_know", [], "portfolio_theme"); ?>
+
 <form action="#" method="post">
     <?php echo $token->output("update_settings"); ?>
 

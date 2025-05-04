@@ -16,6 +16,9 @@ $form = $app->make(Form::class);
 $ui = $app->make(UserInterface::class);
 
 View::element("dashboard/help_blocktypes", [], "portfolio_theme");
+
+/** @noinspection PhpUnhandledExceptionInspection */
+View::element("dashboard/did_you_know", [], "portfolio_theme");
 ?>
 
 <div id="items-container"></div>
