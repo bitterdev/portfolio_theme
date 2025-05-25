@@ -26,16 +26,22 @@ if (!$images && $page && $page->isEditMode()) { ?>
 ?>
 
 <div class="certifications">
-    <a href="https://skillshop.credential.net/72ce3882-6acd-4769-a1a2-8eecacbd666a#acc.OYKvbkIA"
-       target="_blank" title="Google Ads Creative">
-        <?php foreach ($images as $image) { ?>
-            <?php if (isset($image["file"]) && $image["file"] instanceof File) { ?>
-                <?php $fv = $image["file"]->getApprovedVersion(); ?>
+    <?php foreach ($images as $image) { ?>
+        <?php if (isset($image["file"]) && $image["file"] instanceof File) { ?>
+            <?php $fv = $image["file"]->getApprovedVersion(); ?>
 
-                <?php if ($fv instanceof Version) { ?>
+            <?php if ($fv instanceof Version) { ?>
+                <?php $link = $fv->getAttribute("link"); ?>
+
+                <?php if (strlen($link) > 0) { ?>
+                    <a href="<?php echo h($link) ?>"
+                       target="_blank" title="<?php echo h($fv->getTitle()); ?>">
+                        <img src="<?php echo h($fv->getURL()) ?>" title="<?php echo h($fv->getTitle()); ?>"/>
+                    </a>
+                <?php } else { ?>
                     <img src="<?php echo h($fv->getURL()) ?>" title="<?php echo h($fv->getTitle()); ?>"/>
                 <?php } ?>
             <?php } ?>
         <?php } ?>
-    </a>
+    <?php } ?>
 </div>
