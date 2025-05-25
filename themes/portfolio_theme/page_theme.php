@@ -23,6 +23,7 @@ class PageTheme extends Theme
         $this->requireAsset('javascript', 'jquery');
         $this->requireAsset('javascript', 'bootstrap');
         $this->requireAsset('vue');
+        $this->requireAsset('core/cms');
     }
 
 }

@@ -9,7 +9,7 @@ use Concrete\Core\Entity\Package as PackageEntity;
 class Controller extends Package
 {
     protected string $pkgHandle = 'portfolio_theme';
-    protected string $pkgVersion = '0.1.3';
+    protected string $pkgVersion = '0.1.4';
     protected $appVersionRequired = '9.0.0';
     protected $pkgAllowsFullContentSwap = true;
     protected $pkgAutoloaderRegistries = [
