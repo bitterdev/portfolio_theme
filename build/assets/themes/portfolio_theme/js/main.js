@@ -17,13 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     $mobileNav.parent().appendTo(".ccm-page");
 
-    if (typeof Tooltip !== "undefined") {
-        document.querySelectorAll("div.certifications a").forEach((element) => {
-            // noinspection JSCheckFunctionSignatures
-            new Tooltip(element);
-        });
-    }
-
     // Burger-Button Animation
     $('.navbar-toggler').click(function () {
         $("#mobileNav").toggleClass("visible");
