@@ -17,10 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     $mobileNav.parent().appendTo(".ccm-page");
 
-    document.querySelectorAll("div.certifications a").forEach((element) => {
-        // noinspection JSCheckFunctionSignatures
-        new Tooltip(element);
-    });
+    if (typeof Tooltip !== "undefined") {
+        document.querySelectorAll("div.certifications a").forEach((element) => {
+            // noinspection JSCheckFunctionSignatures
+            new Tooltip(element);
+        });
+    }
 
     // Burger-Button Animation
     $('.navbar-toggler').click(function () {
