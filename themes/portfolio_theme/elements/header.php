@@ -32,7 +32,7 @@ $pkg = $pkgEntity->getController();
 
 $logoUrl = $pkg->getRelativePath() . "/images/logo.svg";
 
-$f = File::getByID($siteConfig->get("portfolio_theme.footer_logo_file_id"));
+$f = File::getByID($siteConfig->get("portfolio_theme.regular_logo_file_id"));
 
 if ($f instanceof FileEntity) {
     $fv = $f->getApprovedVersion();
